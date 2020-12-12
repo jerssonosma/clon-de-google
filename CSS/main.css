@@ -108,6 +108,7 @@ main .main-input .main-input-container .search-icon {
     width: 15px;
     height: 15px;
     cursor: pointer;
+    margin-left: 0.5rem;
 }
 main .main-input .main-input-container input {
     border: 0;
