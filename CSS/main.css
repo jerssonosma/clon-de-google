@@ -91,7 +91,7 @@ main .main-input {
 }
 main .main-input .main-input-container {
     width: 100%;
-    max-width: 340px;
+    max-width: 400px;
     height: 30px;
     border-radius: 100px;
     /* background-color: yellow; */
