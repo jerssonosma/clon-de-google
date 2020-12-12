@@ -18,6 +18,7 @@ body {
 }
 /* seccion del header */
 header {
+    margin-top: 1rem;
     grid-area: 1 / 2 / 2 / 4;
     /* background-color: rgb(178, 178, 212); */
     display: flex;
