@@ -73,12 +73,12 @@ main .main-logo {
 main .main-logo img {
     width: 100%;
     max-width: 280px;
-    margin: 3rem 0;
+    margin: 1rem 0;
     border-radius: 20px;
 }
 main .main-input {
     /* border: 1px solid red; */
-    height: 60px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +122,7 @@ main .main-buttons {
     width: 100%;
     max-width: 340px;
     height: 40px;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     /* background-color: turquoise; */
     display: flex;
     justify-content: space-around;
@@ -153,5 +153,15 @@ main .main-buttons button:hover {
 /* seccion del footer */
 footer {
     grid-area: 3 / 1 / 4 / 4;
-    background-color: yellow;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .country {
+    width: 100%;
+}
+footer .footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
